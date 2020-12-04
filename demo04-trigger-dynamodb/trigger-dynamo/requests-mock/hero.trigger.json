@@ -1,0 +1,40 @@
+{
+  "Records": [
+    {
+      "eventID": "6b46b1c9b882c36adc4337ec65e34852",
+      "eventName": "INSERT",
+      "eventVersion": "1.1",
+      "eventSource": "aws:dynamodb",
+      "awsRegion": "us-east-1",
+      "dynamodb": {
+        "ApproximateCreationDateTime": 1607114345,
+        "Keys": {
+          "nome": {
+            "S": "Batman"
+          },
+          "id": {
+            "S": "c0507ef0-3670-11eb-ac3e-fbdcec718079"
+          }
+        },
+        "NewImage": {
+          "createdAt": {
+            "S": "2020-12-04T20:39:05.567Z"
+          },
+          "nome": {
+            "S": "Batman"
+          },
+          "id": {
+            "S": "c0507ef0-3670-11eb-ac3e-fbdcec718079"
+          },
+          "poder": {
+            "S": "Rico"
+          }
+        },
+        "SequenceNumber": "1259700000000026619492299",
+        "SizeBytes": 138,
+        "StreamViewType": "NEW_AND_OLD_IMAGES"
+      },
+      "eventSourceARN": "arn:aws:dynamodb:us-east-1:336259035858:table/Heroes/stream/2020-12-04T20:34:54.860"
+    }
+  ]
+}
